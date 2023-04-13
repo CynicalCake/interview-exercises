@@ -17,7 +17,7 @@ def custom_max(n1, n2):
     elif n2 < n1:
         return n1
     elif n1 == n2:
-        raise Exception("The entered values ​​are the same.")
+        raise Exception("The entered values are the same.")
     raise Exception("Something went wrong.")
 
 # print (custom_max(200, 100))
